@@ -24,8 +24,5 @@ fi
 # load Xresources
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
 
-# start systemd-user instance
-/usr/lib/systemd/systemd --user &
-
 # start window manager
 exec awesome
