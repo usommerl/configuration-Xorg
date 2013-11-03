@@ -14,7 +14,6 @@ fi
 # system wide variables
 CURRENTDIR=$(dirname $(readlink -f $0))
 export XAPPLRESDIR=$CURRENTDIR/app-defaults
-export URXVT_PERL_LIB=$CURRENTDIR/urxvt-extensions
 
 if [ -n "$DISPLAY" ]; then
     export BROWSER=/usr/bin/google-chrome
