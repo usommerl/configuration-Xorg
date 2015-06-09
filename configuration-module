@@ -6,8 +6,9 @@
 MODULE=Xorg
 
 function INSTALL() {
-    local _file=.xinitrc
+    local _file=.xsessionrc
     link $CURRENT_DIRECTORY/$_file ~/$_file
+    link $CURRENT_DIRECTORY/app-defaults ~/.app-defaults
     link $CURRENT_DIRECTORY/urxvt-extensions ~/.urxvt/ext
     initializeAndUpdateAllSubmodules
 }
