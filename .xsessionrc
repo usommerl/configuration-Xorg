@@ -1,1 +1,3 @@
 export XAPPLRESDIR=$HOME/.app-defaults
+export VIM_SERVERNAME="vim"
+export _JAVA_AWT_WM_NONREPARENTING=1
