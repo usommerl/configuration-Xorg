@@ -9,6 +9,7 @@ function INSTALL() {
     local _file=.xinitrc
     link $CURRENT_DIRECTORY/$_file ~/$_file
     link $CURRENT_DIRECTORY/urxvt-extensions ~/.urxvt/ext
+    link $CURRENT_DIRECTORY/urxvt-themes ~/.urxvt/themes
     initializeAndUpdateAllSubmodules
 }
 
