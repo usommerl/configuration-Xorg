@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 install() {
-  link "$REPOSITORY_ROOT/.xinitrc" ~/.xinitrc
+  link "$REPOSITORY_ROOT/.xsessionrc" ~/.xsessionrc
+  link "$REPOSITORY_ROOT/app-defaults" ~/.app-defaults
   link "$REPOSITORY_ROOT/urxvt-extensions" ~/.urxvt/ext
-  link "$REPOSITORY_ROOT/urxvt-themes" ~/.urxvt/themes
   setup_submodules
 }
 
