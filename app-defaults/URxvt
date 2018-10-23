@@ -1,0 +1,81 @@
+URxvt.termName:                     rxvt-unicode-256color
+URxvt.loginShell:                   true
+URxvt.depth:                        32
+URxvt.scrollBar:                    false
+URxvt.font:                         xft:DejaVu Sans Mono:hinting=true:hintstyle=hintfull:size=10
+URxvt.letterSpace:                  -1
+URxvt.cursorBlink:                  true
+URxvt.cursorBlock:                  true
+URxvt.visualBell:                   true
+URxvt.urgentOnBell:                 true
+URxvt.saveLines:                    10000
+URxvt.iso14755:                     false
+URxvt.scrollstyle:                  plain
+URxvt.internalBorder:               0
+URxvt.externalBorder:               0
+
+URxvt.perl-ext-common:              default,clipboard,resize-font,keyboard-select,url-select,color-themes
+URxvt.clipboard.autocopy:           true
+URxvt.clipboard.copycmd:            xclip -i -selection clipboard
+URxvt.clipboard.pastecmd:           xclip -o -selection clipboard
+URxvt.url-select.autocopy:          true
+URxvt.url-select.launcher:          /usr/bin/chromium
+
+URxvt.keysym.Shift-Control-C:       perl:clipboard:copy
+URxvt.keysym.Shift-Control-V:       perl:clipboard:paste
+URxvt.keysym.Control-plus:          perl:resize-font:bigger
+URxvt.keysym.Control-minus:         perl:resize-font:smaller
+URxvt.keysym.Control-0:             perl:resize-font:reset
+URxvt.keysym.Control-Escape:        perl:keyboard-select:activate
+URxvt.keysym.Shift-Control-U:       perl:url-select:select_next
+
+URxvt.color-themes.themedir:        ~/.urxvt/themes
+URxvt.color-themes.state-file:      ~/.urxvt/current-theme
+URxvt.color-themes.preprocessor:    /usr/bin/cpp
+URxvt.keysym.M-C-n:                 perl:color-themes:next
+URxvt.keysym.M-C-p:                 perl:color-themes:prev
+URxvt.color-themes.autosave:        1
+
+URxvt.keysym.M-Up:                  \033[1;3A
+URxvt.keysym.M-Down:                \033[1;3B
+URxvt.keysym.M-Right:               \033[1;3C
+URxvt.keysym.M-Left:                \033[1;3D
+URxvt.keysym.S-M-Up:                \033[1;4A
+URxvt.keysym.S-M-Down:              \033[1;4B
+URxvt.keysym.S-M-Right:             \033[1;4C
+URxvt.keysym.S-M-Left:              \033[1;4D
+
+URxvt.keysym.M-Prior:               \033[5;3~
+URxvt.keysym.M-Next:                \033[6;3~
+URxvt.keysym.M-End:                 \033[1;3F
+URxvt.keysym.M-Home:                \033[1;3H
+
+URxvt.keysym.C-Up:                  \033[1;5A
+URxvt.keysym.C-Down:                \033[1;5B
+URxvt.keysym.C-Right:               \033[1;5C
+URxvt.keysym.C-Left:                \033[1;5D
+URxvt.keysym.C-Prior:               \033[5;5~
+URxvt.keysym.C-Next:                \033[6;5~
+URxvt.keysym.C-End:                 \033[1;5F
+URxvt.keysym.C-Home:                \033[1;5H
+
+URxvt.cursorColor:                  11
+
+*background:                        #000000
+*foreground:                        #babdb6
+*color0:                            #2e3436
+*color1:                            #cc0000
+*color2:                            #4e9a06
+*color3:                            #c4a000
+*color4:                            #3465a4
+*color5:                            #75507b
+*color6:                            #06989a
+*color7:                            #d3d7cf
+*color8:                            #555753
+*color9:                            #ef2929
+*color10:                           #8ae234
+*color11:                           #fce94f
+*color12:                           #729fcf
+*color13:                           #ad7fa8
+*color14:                           #34e2e2
+*color15:                           #eeeeec
