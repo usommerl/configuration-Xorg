@@ -15,10 +15,6 @@ fi
 CURRENTDIR=$(dirname $(readlink -f $0))
 export XAPPLRESDIR=$CURRENTDIR/app-defaults
 
-if [ -n "$DISPLAY" ]; then
-    export BROWSER=/usr/bin/google-chrome
-fi
-
 # load Xresources
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
 
