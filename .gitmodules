@@ -1,9 +1,12 @@
 [submodule "urxvt-extensions/urxvt-perls"]
 	path = urxvt-extensions/urxvt-perls
 	url = https://github.com/muennich/urxvt-perls.git
+	branch = master
 [submodule "urxvt-extensions/urxvt-resize-font"]
 	path = urxvt-extensions/urxvt-resize-font
 	url = https://github.com/simmel/urxvt-resize-font.git
+	branch = master
 [submodule "urxvt-extensions/urxvt-theme-switch"]
 	path = urxvt-extensions/urxvt-theme-switch
 	url = https://github.com/felixr/urxvt-theme-switch.git
+	branch = master
