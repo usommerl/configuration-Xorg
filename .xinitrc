@@ -13,7 +13,6 @@ fi
 
 # system wide variables
 export XAPPLRESDIR=$(dirname $(readlink -f $0))/app-defaults
-export NVIM_LISTEN_ADDRESS=/tmp/nvimsocket
 
 # load Xresources
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
